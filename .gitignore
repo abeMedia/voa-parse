@@ -1,4 +1,1 @@
-build
-release
-*.dta
-*.exe
+bin

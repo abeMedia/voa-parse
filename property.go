@@ -15,7 +15,7 @@ type Property struct {
     X1                    string    `db:"unknown1"`
     BillingAuthority      int64     `db:"billing_authority"`
     Owner                 string    `db:"owner"`
-    BuildingNumber        int64     `db:"building_number"`
+    BuildingNumber        string    `db:"building_number"`
     BuildingUnit          string    `db:"building_unit"`
     BuildingName          string    `db:"building_name"`
     Location              string    `db:"location"`
@@ -46,7 +46,7 @@ func NewProperty(v []string) (p Property) {
     p.X1 = v[1]
     p.BillingAuthority, _ = strconv.ParseInt(v[2], 10, 64)
     p.Owner = v[3]
-    p.BuildingNumber, _ = strconv.ParseInt(v[4], 10, 64)
+    p.BuildingNumber = v[4]
     p.BuildingUnit = v[5]
     p.BuildingName = v[6]
     p.Location = v[7]
