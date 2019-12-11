@@ -28,7 +28,7 @@ Download the latest executable for the OS of your choice, unzip it, then run the
 
 ## Known issues
 
-There's a couple of fields I couldn't identify in the properties table (named `unkown1` & `unkown2`). If you happen to know what these are please feel free to do a pull request.
+There's a couple of fields I couldn't identify in the properties table (named `unknown1` & `unknown2`). If you happen to know what these are please feel free to do a pull request.
 
 
 ## Copyright
